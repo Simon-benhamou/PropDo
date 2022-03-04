@@ -7,9 +7,9 @@ import SearchContext from './Contexts/SearchContext';
 
 ReactDOM.render(
   <SearchContext>
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
   </SearchContext>,
   document.getElementById('root')
 );
