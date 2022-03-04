@@ -32,7 +32,9 @@ export default function PropertyCard(props) {
           </Typography>
               <Typography variant="body2" color="text.secondary">
             Parking: {parking}
-        
+          </Typography>
+           <Typography variant="body2" color="text.secondary">
+            Address: {address}
           </Typography>
         </CardContent>
       </CardActionArea>
