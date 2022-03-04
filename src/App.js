@@ -5,7 +5,9 @@ import Map from './pages/Map';
 import Nav from './component/Nav';
 import ContextProvider from "./Contexts/Context";
 
+
 function App() {
+
   return (
     <>
     <ContextProvider>
