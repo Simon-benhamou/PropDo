@@ -6,13 +6,15 @@ import {
   Toolbar,
   CssBaseline
 } from "@material-ui/core";
-import SearchContext from '../Contexts/SearchContext';
+import { Context } from "../Contexts/Context";
 
 import {Link} from 'react-router-dom'
 
 export default function Nav() {
+  const { open, setOpen } = useContext(Context);
 
 const  searchHandler = (e) => {
+    setOpen(e.target.value)
 }
 
   return ( 
