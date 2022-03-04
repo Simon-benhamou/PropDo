@@ -1,4 +1,4 @@
-import  React,{createContext,useContext, useState} from 'react';
+import  React,{useContext} from 'react';
 import './Nav.css';
 import CardMedia from '@mui/material/CardMedia';
 import {
@@ -11,7 +11,7 @@ import { Context } from "../Contexts/Context";
 import {Link} from 'react-router-dom'
 
 export default function Nav() {
-  const { open, setOpen } = useContext(Context);
+  const { setOpen } = useContext(Context);
 
 const  searchHandler = (e) => {
     setOpen(e.target.value)

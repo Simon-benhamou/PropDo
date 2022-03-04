@@ -1,4 +1,3 @@
-import { style } from '@mui/system'
 import React ,{useContext, useEffect, useState}from 'react'
 import lists from '../transactions.json'
 import PropertyCard from '../component/PropertyCard'
@@ -7,7 +6,7 @@ import { FormControl,InputLabel,Select,MenuItem } from '@mui/material';
 
 export default function Listing() {
 
-    const { open, setOpen } = useContext(Context);
+    const { open } = useContext(Context);
     const [list,setList]= useState(lists.properties)
     const [room , setRoom]=useState(6)
     const [price,setPrice]=useState(3)

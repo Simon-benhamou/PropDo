@@ -7,7 +7,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 export default function PropertyCard(props) {
   
-    const {address,price,num_rooms,floor,num_floor,elevator,parking,id,image} = props?.data
+    const {address,price,num_rooms,floor,parking,image} = props?.data
     
 
   return (
