@@ -1,8 +1,12 @@
 .navigation-bar{
-    margin-right: 5px;
     text-decoration: none;
     color: white;
+    padding: 15px;
 }
+.navigation-bar:hover{
+    color: #368fe2;
+}
+
 .logo{
     margin: 6px;
     max-width: 50px;

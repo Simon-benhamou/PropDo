@@ -26,7 +26,7 @@ const  searchHandler = (e) => {
                     <Link className='navigation-bar' to="/real-estate" > Listing</Link>
                     <Link className='navigation-bar' to="/map"> Map</Link>
                 </Toolbar>
-                <input className="input"placeholder="Search…"  onChange={searchHandler} />
+                <input className="input"placeholder="Search by address…"  onChange={searchHandler} />
             </div>
             </AppBar>
   )
